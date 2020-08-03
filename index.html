@@ -1,1 +1,665 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Susana Zoghbi | Website</title>
+  <link rel="stylesheet" href="{% static 'css/personal/bootstrap.min.css' %}" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/personal/style.css' %}" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+
+<!-- Tracking code -->
+<script type="text/javascript">
+  
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80113485-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body onload="start()">
+
+<div id="header" class="bg1">
+  
+  <div class="container">
+    <div class="row" id="headerblob">
+      <div class="col-md-4" id="intro_txt">
+        <div id="htname">Susana Zoghbi</div>
+        <div id="htdesc">PhD in Computer Science</div>
+        <div id="htem">szoghbi _at_ macty.eu</div>
+        <div id="icons">
+          <div class="svgico">
+          <a href="https://www.linkedin.com/in/susana-zoghbi-a5b1a553"><img src="{% static 'images/personal/linkedin.png' %}" width="56px"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5"></div>
+      <div class="col-md-3">
+        <img src="{% static 'images/personal/susana.jpg' %}" class="img-circle imgme" width="200" height="200">
+        
+      </div>
+          
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <blockquote>
+      <p style="font-size:24px; font-style:italic;">I want to help machines understand the world.</p>
+    </blockquote>
+  </div>
+
+</div>
+
+
+<div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+  <b>About.</b> I recieved a PhD in Computer Science in Dec. 2016. My research interests lie at the intersection of computer vision and natural language processing, and include deep learning, topic modeling and graphical models.  Specifically, I am interested in developing end-to-end learning architectures to jointly detect fine-grained attributes on both images and text. In the summer of 2017, I worked for NASA as an Artificial Intelligence Researcher to automatically search for long-period comets that might impact Earth.  In the summer of 2015, I conducted an internship at Microsoft Research in Cambridge, where I focused on machine learning for optimizing environments for large scale software development. Before my PhD, I obtained two Masters degrees, one in Mechanical Engineering, where my research focused on human-robot interaction technologies, and one in Mathematical Physics, where I focused on gravitational fluctuations in Domain Wall Spacetimes. In 2014, I was awarded a Google Anita Borg Scholarship.
+</div>
+
+
+<hr class="soft">
+
+<div class="container">
+    <h2>Publications</h2>
+
+
+    <p><a href="https://scholar.google.be/citations?user=ravmkhkAAAAJ&hl=en" class="btn btn-info" role="button">Google Scholar Profile</a></p>
+    
+
+      <hr class="soft" style="margin:5px">
+
+  <div id="pubs">
+
+    <div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-12">
+          
+            <div class="pubt">Searching for Long-Period Comets with Deep Learning Tools. </div>
+            <p>Sponsored by: 
+            <img src="{% static 'images/personal/nasa_logo.jpg' %}" height="50" alt="Nasa" style='margin: auto;'>
+            <img src="{% static 'images/personal/seti_logo.png' %}" height="50" alt="seti" style='margin: auto;'>
+            <img src="{% static 'images/personal/ibm_logo.png' %}" height="50" alt="ibm" style='margin: auto;'>
+            <img src="{% static 'images/personal/nvidia.png' %}" height="50" alt="nvidia" style='margin: auto;'>
+            </p>
+
+            <div class="pubd">
+              <div class="row">
+                <div class="col-md-12">
+                In planetary defense, long-period comets are recognized as the potentially most devastating threat. However, any new comet on an impact trajectory would likely only be discovered about one year before impact. The goal of this project is to add years of extra warning time by providing comet searchers directions on where to look for comets when they are still far out. To aid and guide a dedicated search for these dangerous objects, meteor showers may offer a clue. Comets leave debris trails as they travel along their orbits. When our planet intersects such debris trails, we see them as meteors. By detecting rare aperiodic meteor showers from dust clouds, we can estimate the orbit of the parent body and narrow down the search space where to look for long-period comets. 
+
+                <div class="col-md-12">
+            <div class="pubimg">
+              <a target="_blank" href="https://www.meteorshowers.org/view/Perseids">
+              <img src="{% static 'images/personal/perseids2.png' %}" style="padding-top: 35px; padding-bottom: 12px; margin-bottom: 10px; max-height: 300px">
+              </a>
+            </div>
+            <div>
+              <p class="imgcaption" style="font-size:14px">Illustration of debris trail from the comet Swift-Tuttle. When Earth passes through this trail, we see the famous Perseid meteor shower.</p>
+          </div>
+          
+          </div> <!-- end col-6 -->
+                
+                <br>
+                The Cameras for Allsky Meteor Surveillance or CAMS monitors the sky to detect meteors. Until now, processing the images has required time-consuming human input to rule out false positives. Automating this process allows to free the data analyst in CAMS and enable a global expansion and temporal coverage of the camera network that can detect the dust trails of those potentially hazardous long period comets that came close to Earth’s orbit in the past ten millennia. 
+                <br>
+                We developed deep learning tools that allow such automation. Specifically, we developed a Convolutional Neural Network (CNN) that discerns images of meteors vs. other objects in the sky and achieves precision and recall scores of 88.3% and 90.3%, respectively.  In addition, we developed a Long-Short Term Memory (LSTM) network that encodes the light curve tracklets into a latent space, and learns to predict whether the tracklet corresponds to a meteor or not. The LSTM achieves a precision of 90.0% and a recall of 89.1%.  These methods can now be used by meteor astronomers to automatically analyze sky detections and help guide the search for long-period comets.
+                </div>
+                
+                
+              </div>
+            </div>
+            <div class="puba">Susana Zoghbi, Marcelo De Cicco, Antonio Ordoñez, Andres Plata Stapper, Peter S. Gural, Siddha Ganju, and Peter Jenniskens</div>
+            <div class="pubv">Workshop on Deep Learning for Physical Sciences (DLPS 2017), NIPS 2017, Long Beach, CA, USA.</div>
+            <div>
+              <ul>
+                <li>
+                <a href="https://dl4physicalsciences.github.io/files/nips_dlps_2017_23.pdf" target="_blank" class="btn btn-info" role="button">PDF</a>
+                </li>
+                <li>
+                <a href="http://comets.frontierdevelopmentlab.org/#/mission" target="_blank" class="btn btn-info" role="button">Mission</a>
+                </li>
+                <li>
+                <a href="http://cams.seti.org" target="_blank" class="btn btn-info" role="button">CAMS</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+
+        </div> <!-- end pubwrat -->
+        
+
+    <div class="pubwrap">
+      <div class="row">
+        <div class="pub">
+          <div class="pubt">
+            Cross-modal Search for Fashion Attributes
+          </div>
+
+          <div class="pubd">
+            <div class="row">
+              <div class="col-md-8">
+            In this paper we develop a neural network which learns inter- modal representations for fashion attributes to be utilized in a cross-modal search tool. Our neural network learns from organic e-commerce data, which is characterized by clean image material, but noisy and incomplete product descrip- tions. First, we experiment with techniques to segment e- commerce images and their product descriptions into respec- tively image and text fragments denoting fashion attributes. Here, we propose a rule-based image segmentation approach which exploits the cleanness of e-commerce images. Next, we design an objective function which encourages our model to induce a common embedding space where a semantically related image fragment and text fragment have a high in- ner product. This objective function incorporates similarity information of image fragments to obtain better intermodal representations. A key insight is that similar looking image fragments should be described with the same text fragments. We explicitly require this in our objective function, and as such recover information which was lost due to noise and in- completeness in the product descriptions. We evaluate the inferred intermodal representations in cross-modal search. We demonstrate that the neural network model trained with our objective function on image fragments acquired with our rule-based segmentation approach improves the results of image search with textual queries by 198% for recall@1 and by 181% for recall@5 compared to results obtained by a state-of-the-art image search system on the same benchmark dataset.
+            </div>
+            <div class="col-md-4">
+              <img src="{% static 'images/personal/kdd.png' %}" height="300" alt="">
+              <p class="imgcaption" style="padding-top: 30px; font-size:14px">We learn to align image fragments and textual segments which improves performance for the task of cross-modal search.</p>
+            </div>
+            </div>
+          </div>
+          <div class="puba">Katrien Laenen, Susana Zoghbi, Sien Moens</div>
+            <div class="pubv">KDD Machine Learning Meets Fashion Worshop, 2017</div>
+            <div>
+              <ul>
+                <li>
+                <a href="https://kddfashion2017.mybluemix.net/final_submissions/ML4Fashion_paper_7.pdf" class="btn btn-info" role="button">PDF</a>
+
+                </li>
+              </ul>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Latent Dirichlet Allocation for Linking User-Generated Content and e-Commerce Data</div>
+
+            <div class="pubd">
+              Automatic linking of online content improves navigation possibilities for end users. We focus on linking content generated by users to other relevant sites. In particular, we study the problem of linking information between different usages of the same language, e.g., colloquial and formal <i>idioms</i> or the language of consumers versus the language of sellers. The challenge is that the same items are described using very distinct vocabularies. As a case study, we investigate a new task of linking textual <strong>Pinterest.com</strong> pins (colloquial) to online webshops (formal). 
+
+              We evaluate three different modeling paradigms based on probabilistic topic modeling: monolingual latent Dirichlet allocation (LDA),  bilingual LDA (BiLDA) and a novel multi-idiomatic LDA model (MiLDA). We compare these to the unigram model with Dirichlet prior.  Our results for all three topic models reveal the usefulness of modeling the hidden thematic structure of the data through topics. Our proposed MiLDA model is able to deal with intrinsic multi-idiomatic data by considering the shared vocabulary between the aligned document pairs.  
+
+            </div>
+            <div class="puba">Susana Zoghbi, Ivan Vulic, Sien Moens</div>
+            <div class="pubv">Information Sciences, 2016</div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/inf_science_main.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+                <!-- <li>
+                <a href="coming_soon.html" class="btn btn-info" role="button">Datasets</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="{% static 'images/personal/inf_science.png' %}" style="">
+          </div>
+          <div>
+            <p class="imgcaption" style="padding-top: 30px; font-size:14px">Examples that may be linked between user-generated content from Pinterest.com and e-commerce data from Amazon.com.  We see the difference in language usage between social media and online products .  On each row, the items are the same (or very similar), but the textual description differs. This difference in language makes it difficult to link the items as referring to the related objects.</p>
+          </div>
+        
+        </div>
+        
+    </div>
+  </div>
+
+<div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-12">
+          <div class="pub">
+            <div class="pubt">Fashion Meets Computer Vision and NLP at E-Commerce
+          Search</div>
+
+            <div class="pubd">
+              We focus on cross-modal (visual and textual) e-commerce search within the fashion domain. Particularly, we investigate two tasks: 1) given a query image, we retrieve textual descriptions that correspond to the visual attributes in the query; and 2) given a textual query that may express an interest in specific visual product characteristics, we retrieve relevant images that exhibit the required visual attributes. Our dataset consists of 53,689 images coupled with textual descriptions. The images contain fashion garments that display a great variety of visual attributes, such as different shapes, colors and textures in natural language. Unlike previous datasets, the text provides a rough and noisy description of the item in the image. We extensively analyze this dataset in the context of cross-modal e-commerce search. We investigate two latent variable models to bridge between textual and visual data: bilingual latent Dirichlet allocation and canonical correlation analysis. We use state-of-the-art visual and textual features and report promising results
+
+            </div>
+            <div class="puba">Susana Zoghbi, Geert Heyman, Juan Carlos Gomez, Sien Moens</div>
+            <div class="pubv">International Journal of Computer and Electrical Engineering (IJCEE), 2016</div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/IJCEE_Final.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+
+    <div class="row"  style="padding-top: 30px;">
+        <div class="col-md-6">
+          <div class="pubimg">
+          <img src="{% static 'images/personal/img2txt.png' %}">
+          </div>
+          <div>
+            <p class="imgcaption">Image to text</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="{% static 'images/personal/txt2img.png' %}" style="padding-bottom: 30px;">
+          </div>
+          <div>
+            <p class="imgcaption">Text to image</p>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+
+<div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Cross-Modal Fashion Search</div>
+
+            <div class="pubd">
+              In this paper we show an online demo that allows bidrectional multimodal queries for garments.
+
+            </div>
+            <div class="puba">Susana Zoghbi, Geert Heyman, Juan Carlos Gomez, Sien Moens</div>
+            <div class="pubv">In Lecture Notes in Computer Science (LNCS) Vol. 9517, pp 367-373, 2016</div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/fashion_demo_LNCS.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+                <li>
+                <a href="{% static 'video/demo.mp4' %}" class="btn btn-info" role="button">Video</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="{% static 'images/personal/demo_img2txt.png' %}" style="">
+          </div>
+        
+        </div>
+
+  </div>
+</div>
+
+<div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Inferring User Interests on Social Media From Text and Images</div>
+
+            <div class="pubd">
+              We propose to infer user interests on social media where multi-modal data (text, image etc.) exist. We leverage user-generated data from Pinterest.com as a natural expression of users’ interests. Our main contribution is exploiting a multi-modal space composed of images and text. This is a natural approach since humans express their interests with a combination of modalities.  We performed experiments using the state-of-the-art image and textual representations, such as convolutional neural networks, word embeddings, and bags of visual and textual words. Our experimental results show that in fact jointly processing image and text increases the overall interest classification accuracy, when compared to uni-modal representations (i.e., using only text or using only images).
+
+            </div>
+            <div class="puba">Yagmur Gizem Cinar, Susana Zoghbi, Marie-Francine Moens</div>
+            <div class="pubv">
+              International Workshop on Social Media Retrieval and Analysis in conjunction with the IEEE International Conference on Data Mining (ICDM 2015)
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/SoMeRA_2015.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="{% static 'images/personal/somera.png' %}" style="padding-bottom: 30px">
+          </div>
+          <div>
+            <p class="imgcaption" style="font-size: 15px;">Examples of pins (image-text pairs) with the corresponding categories (top) our system predicts</p>
+          </div>
+        </div>
+        
+        </div>
+
+  </div>
+</div>
+
+
+<div class="pubwrap">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Learning to Bridge Colloquial and Formal Language Applied to Linking and Search of E-Commerce Data</div>
+
+            <div class="pubd">
+              We study the problem of linking information between different idiomatic usages of the same language, for example, colloquial and formal language. We propose a novel probabilistic topic model called multi-idiomatic LDA (MiLDA). Its modeling principles follow the intuition that certain words are shared between two idioms of the same language, while other words are non-shared. We demonstrate the ability of our model to learn relations between cross-idiomatic topics in a dataset containing product descriptions and reviews. We present the utility of the new MiLDA topic model in a recently proposed information retrieval task of linking Pinterest pins to online webshops . We show that our multi-idiomatic model outperforms the standard monolingual LDA model and the pure bilingual LDA model both in terms of perplexity and MAP scores in the IR task.
+
+            </div>
+            <div class="puba">Ivan Vulic, Susana Zoghbi and Sien Moens</div>
+            <div class="pubv">
+              ACM SIGIR Conference on Research & Development in Information Retrieval (SIGIR '14)
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/sigir_2014.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="{% static 'images/personal/sigir_img.png' %}" style="padding-bottom: 30px">
+          </div>
+          <div>
+            <p class="imgcaption" style="font-size: 15px;">Graphical representation of the multiidiomatic LDA (MiLDA) model</p>
+          </div>
+        </div>
+        
+        </div>
+
+  </div>
+
+<div class="showmore" id="showmorepubs">
+    show more
+</div>
+
+<div id="morepubs">
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Are words enough?: a study on text-based representations and retrieval models for linking pins to online shops.</div>
+            <div class="puba">Ivan Vulic, Susana Zoghbi and Sien Moens</div>
+            <div class="pubv">
+              Proceedings of the 2013 International Workshop on Mining Unstructured Big Data
+          using Natural Language Processing in conjunction with The 24th ACM International Conference on
+          Information and Knowledge Management (CIKM 2013) 
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="https://lirias.kuleuven.be/bitstream/123456789/413290/1/ZoghbietalCIKMBIGDATA2013.pdf" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">I pinned it. where can i buy one like it?: Automatically linking
+          pinterest pins to online webshops</div>
+            <div class="puba">Susana Zoghbi, Ivan Vulic and Sien Moens</div>
+            <div class="pubv">
+              DUBMOD '13 Proceedings of the 2013 workshop on Data-driven User Behavioral
+          Modelling and Mining from Social Media.
+          Pages 9-12. In conjunction with The 24th ACM International Conference on Information and Knowledge
+          Management (CIKM 2013) 
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/p9_zoghbi.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">How well do your facebook status updates express your personality</div>
+            <div class="puba">Golnoosh Farnadi, Susana Zoghbi, Marie-Francine Moens, Martine De Cock</div>
+            <div class="pubv">
+              Proceedings of the 22nd Edition of the Annual Belgian-Dutch Conference on Machine
+          Learning, BENELEARN 2013
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/benelearn.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Recognising personality traits using Facebook status
+          updates</div>
+            <div class="puba">Golnoosh Farnadi, Susana Zoghbi, Marie-Francine Moens, Martine De Cock</div>
+            <div class="pubv">
+              Workshop on Computational Personality Recognition (WCPR 2013) in conjunction with
+          the Seventh International AAAI Conference on Weblogs and Social Media (ICWSM)
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/farnadi_wcpr13.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Enhancing collaborative human–robot
+          interaction through physiological-signal based communication</div>
+            <div class="puba">Susana Zoghbi, Chris Parker, Elizabeth Croft and H.F. Machiel Van der Loos</div>
+            <div class="pubv">
+              Proceedings of Workshop on Multimodal Human–Robot Interfaces, 2010 IEEE
+          International Conference on Robotics and Automation (ICRA 2010)
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/Zoghbi_Parker_Croft_VanDerLoosFinal.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Measuring intent in human-robot cooperative manipulation.</div>
+            <div class="puba">Davide De Carli, Evan Hohert, Chris AC Parker, Susana Zoghbi, Simon Leonard,
+          Elizabeth Croft, Antonio Bicchi</div>
+            <div class="pubv">
+              Proceedings of Workshop on Multimodal Human–Robot Interfaces, 2010 IEEE
+          International Conference on Robotics and Automation (ICRA 2010)
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/decarli.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Measurement instruments for the anthropomorphism, animacy,
+          likeability, perceived intelligence, and perceived safety of robots</div>
+            <div class="puba">Shristoph Bartneck, Dana Kulić, Elizabeth Croft, Susana Zoghbi</div>
+            <div class="pubv">
+              International journal of social robotics, pp 71-81. (2009).
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/godspeed.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">Evaluation of affective state estimations using an on-line reporting
+          device during human-robot interactions</div>
+            <div class="puba">Susana Zoghbi, Elizabeth Croft, Dana Kulić, Mike Van der Loos</div>
+            <div class="pubv">
+              International Conference on Intelligent Robots and Systems, 2009. IROS 2009.
+          IEEE/RSJ
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/affect.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+<div class="pubwrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="pub">
+            <div class="pubt">On line-Affective state reporting device: A tool for evaluating
+          affective state inference systems</div>
+            <div class="puba">Susana Zoghbi, Dana Kuliff, Elizabeth Croft, Machiel Van der Loos</div>
+            <div class="pubv">
+              ACM Proceedings of the 4th ACM/IEEE international conference on Human robot
+          interaction, 2009.
+            </div>
+            <div>
+              <ul>
+                <li>
+                <a href="{% static 'myPublications/06256079.pdf' %}" class="btn btn-info" role="button">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+</div>
+    
+
+
+ </div> 
+
+
+
+<div id="sitefooter">
+
+</div>
+
+<!-- place js at end for faster loading -->
+<script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+</script> 
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+</script>
+
+<script>
+
+var more_projects_shown = false;
+function start() {
+  $("#showmoreprojects").click(function() {
+    if(!more_projects_shown) {
+      $("#moreprojects").slideDown('fast', function() {
+        $("#showmoreprojects").text('hide');
+      });
+      more_projects_shown = true;
+    } else {
+      $("#moreprojects").slideUp('fast', function() {
+        $("#showmoreprojects").text('show more');
+      });
+      more_projects_shown = false;
+    }
+  });
+
+  var more_pubs_shown = false;
+  $("#showmorepubs").click(function() {
+    if(!more_pubs_shown) {
+      $("#morepubs").slideDown('fast', function() {
+        $("#showmorepubs").text('hide');
+      });
+      more_pubs_shown = true;
+    } else {
+      $("#morepubs").slideUp('fast', function() {
+        $("#showmorepubs").text('show more');
+      });
+      more_pubs_shown = false;
+    }
+  });
+
+}
+
+</script>
+
+</body>
+</html>
