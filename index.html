@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Susana Zoghbi | Website</title>
-  <link rel="stylesheet" href="{% static 'css/personal/bootstrap.min.css' %}" crossorigin="anonymous">
-  <link rel="stylesheet" href="{% static 'css/personal/style.css' %}" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 
 
 <!-- Tracking code -->
 <script type="text/javascript">
-  
+
 </script>
 
 <script>
@@ -31,7 +31,7 @@
 <body onload="start()">
 
 <div id="header" class="bg1">
-  
+
   <div class="container">
     <div class="row" id="headerblob">
       <div class="col-md-4" id="intro_txt">
@@ -40,16 +40,16 @@
         <div id="htem">szoghbi _at_ macty.eu</div>
         <div id="icons">
           <div class="svgico">
-          <a href="https://www.linkedin.com/in/susana-zoghbi-a5b1a553"><img src="{% static 'images/personal/linkedin.png' %}" width="56px"></a>
+          <a href="https://www.linkedin.com/in/susana-zoghbi-a5b1a553"><img src="{% static 'images/linkedin.png' %}" width="56px"></a>
           </div>
         </div>
       </div>
       <div class="col-md-5"></div>
       <div class="col-md-3">
-        <img src="{% static 'images/personal/susana.jpg' %}" class="img-circle imgme" width="200" height="200">
-        
+        <img src="{% static 'images/susana.jpg' %}" class="img-circle imgme" width="200" height="200">
+
       </div>
-          
+
     </div>
   </div>
 </div>
@@ -79,7 +79,7 @@
 
 
     <p><a href="https://scholar.google.be/citations?user=ravmkhkAAAAJ&hl=en" class="btn btn-info" role="button">Google Scholar Profile</a></p>
-    
+
 
       <hr class="soft" style="margin:5px">
 
@@ -87,41 +87,41 @@
 
     <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-12">
-          
+
             <div class="pubt">Searching for Long-Period Comets with Deep Learning Tools. </div>
-            <p>Sponsored by: 
-            <img src="{% static 'images/personal/nasa_logo.jpg' %}" height="50" alt="Nasa" style='margin: auto;'>
-            <img src="{% static 'images/personal/seti_logo.png' %}" height="50" alt="seti" style='margin: auto;'>
-            <img src="{% static 'images/personal/ibm_logo.png' %}" height="50" alt="ibm" style='margin: auto;'>
-            <img src="{% static 'images/personal/nvidia.png' %}" height="50" alt="nvidia" style='margin: auto;'>
+            <p>Sponsored by:
+            <img src="{% static 'images/nasa_logo.jpg' %}" height="50" alt="Nasa" style='margin: auto;'>
+            <img src="{% static 'images/seti_logo.png' %}" height="50" alt="seti" style='margin: auto;'>
+            <img src="{% static 'images/ibm_logo.png' %}" height="50" alt="ibm" style='margin: auto;'>
+            <img src="{% static 'images/nvidia.png' %}" height="50" alt="nvidia" style='margin: auto;'>
             </p>
 
             <div class="pubd">
               <div class="row">
                 <div class="col-md-12">
-                In planetary defense, long-period comets are recognized as the potentially most devastating threat. However, any new comet on an impact trajectory would likely only be discovered about one year before impact. The goal of this project is to add years of extra warning time by providing comet searchers directions on where to look for comets when they are still far out. To aid and guide a dedicated search for these dangerous objects, meteor showers may offer a clue. Comets leave debris trails as they travel along their orbits. When our planet intersects such debris trails, we see them as meteors. By detecting rare aperiodic meteor showers from dust clouds, we can estimate the orbit of the parent body and narrow down the search space where to look for long-period comets. 
+                In planetary defense, long-period comets are recognized as the potentially most devastating threat. However, any new comet on an impact trajectory would likely only be discovered about one year before impact. The goal of this project is to add years of extra warning time by providing comet searchers directions on where to look for comets when they are still far out. To aid and guide a dedicated search for these dangerous objects, meteor showers may offer a clue. Comets leave debris trails as they travel along their orbits. When our planet intersects such debris trails, we see them as meteors. By detecting rare aperiodic meteor showers from dust clouds, we can estimate the orbit of the parent body and narrow down the search space where to look for long-period comets.
 
                 <div class="col-md-12">
             <div class="pubimg">
               <a target="_blank" href="https://www.meteorshowers.org/view/Perseids">
-              <img src="{% static 'images/personal/perseids2.png' %}" style="padding-top: 35px; padding-bottom: 12px; margin-bottom: 10px; max-height: 300px">
+              <img src="{% static 'images/perseids2.png' %}" style="padding-top: 35px; padding-bottom: 12px; margin-bottom: 10px; max-height: 300px">
               </a>
             </div>
             <div>
               <p class="imgcaption" style="font-size:14px">Illustration of debris trail from the comet Swift-Tuttle. When Earth passes through this trail, we see the famous Perseid meteor shower.</p>
           </div>
-          
+
           </div> <!-- end col-6 -->
-                
+
                 <br>
-                The Cameras for Allsky Meteor Surveillance or CAMS monitors the sky to detect meteors. Until now, processing the images has required time-consuming human input to rule out false positives. Automating this process allows to free the data analyst in CAMS and enable a global expansion and temporal coverage of the camera network that can detect the dust trails of those potentially hazardous long period comets that came close to Earth’s orbit in the past ten millennia. 
+                The Cameras for Allsky Meteor Surveillance or CAMS monitors the sky to detect meteors. Until now, processing the images has required time-consuming human input to rule out false positives. Automating this process allows to free the data analyst in CAMS and enable a global expansion and temporal coverage of the camera network that can detect the dust trails of those potentially hazardous long period comets that came close to Earth’s orbit in the past ten millennia.
                 <br>
                 We developed deep learning tools that allow such automation. Specifically, we developed a Convolutional Neural Network (CNN) that discerns images of meteors vs. other objects in the sky and achieves precision and recall scores of 88.3% and 90.3%, respectively.  In addition, we developed a Long-Short Term Memory (LSTM) network that encodes the light curve tracklets into a latent space, and learns to predict whether the tracklet corresponds to a meteor or not. The LSTM achieves a precision of 90.0% and a recall of 89.1%.  These methods can now be used by meteor astronomers to automatically analyze sky detections and help guide the search for long-period comets.
                 </div>
-                
-                
+
+
               </div>
             </div>
             <div class="puba">Susana Zoghbi, Marcelo De Cicco, Antonio Ordoñez, Andres Plata Stapper, Peter S. Gural, Siddha Ganju, and Peter Jenniskens</div>
@@ -137,15 +137,15 @@
                 <li>
                 <a href="http://cams.seti.org" target="_blank" class="btn btn-info" role="button">CAMS</a>
                 </li>
-                
+
               </ul>
             </div>
           </div>
         </div>
-        
+
 
         </div> <!-- end pubwrat -->
-        
+
 
     <div class="pubwrap">
       <div class="row">
@@ -160,7 +160,7 @@
             In this paper we develop a neural network which learns inter- modal representations for fashion attributes to be utilized in a cross-modal search tool. Our neural network learns from organic e-commerce data, which is characterized by clean image material, but noisy and incomplete product descrip- tions. First, we experiment with techniques to segment e- commerce images and their product descriptions into respec- tively image and text fragments denoting fashion attributes. Here, we propose a rule-based image segmentation approach which exploits the cleanness of e-commerce images. Next, we design an objective function which encourages our model to induce a common embedding space where a semantically related image fragment and text fragment have a high in- ner product. This objective function incorporates similarity information of image fragments to obtain better intermodal representations. A key insight is that similar looking image fragments should be described with the same text fragments. We explicitly require this in our objective function, and as such recover information which was lost due to noise and in- completeness in the product descriptions. We evaluate the inferred intermodal representations in cross-modal search. We demonstrate that the neural network model trained with our objective function on image fragments acquired with our rule-based segmentation approach improves the results of image search with textual queries by 198% for recall@1 and by 181% for recall@5 compared to results obtained by a state-of-the-art image search system on the same benchmark dataset.
             </div>
             <div class="col-md-4">
-              <img src="{% static 'images/personal/kdd.png' %}" height="300" alt="">
+              <img src="{% static 'images/kdd.png' %}" height="300" alt="">
               <p class="imgcaption" style="padding-top: 30px; font-size:14px">We learn to align image fragments and textual segments which improves performance for the task of cross-modal search.</p>
             </div>
             </div>
@@ -184,15 +184,15 @@
 
     <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Latent Dirichlet Allocation for Linking User-Generated Content and e-Commerce Data</div>
 
             <div class="pubd">
-              Automatic linking of online content improves navigation possibilities for end users. We focus on linking content generated by users to other relevant sites. In particular, we study the problem of linking information between different usages of the same language, e.g., colloquial and formal <i>idioms</i> or the language of consumers versus the language of sellers. The challenge is that the same items are described using very distinct vocabularies. As a case study, we investigate a new task of linking textual <strong>Pinterest.com</strong> pins (colloquial) to online webshops (formal). 
+              Automatic linking of online content improves navigation possibilities for end users. We focus on linking content generated by users to other relevant sites. In particular, we study the problem of linking information between different usages of the same language, e.g., colloquial and formal <i>idioms</i> or the language of consumers versus the language of sellers. The challenge is that the same items are described using very distinct vocabularies. As a case study, we investigate a new task of linking textual <strong>Pinterest.com</strong> pins (colloquial) to online webshops (formal).
 
-              We evaluate three different modeling paradigms based on probabilistic topic modeling: monolingual latent Dirichlet allocation (LDA),  bilingual LDA (BiLDA) and a novel multi-idiomatic LDA model (MiLDA). We compare these to the unigram model with Dirichlet prior.  Our results for all three topic models reveal the usefulness of modeling the hidden thematic structure of the data through topics. Our proposed MiLDA model is able to deal with intrinsic multi-idiomatic data by considering the shared vocabulary between the aligned document pairs.  
+              We evaluate three different modeling paradigms based on probabilistic topic modeling: monolingual latent Dirichlet allocation (LDA),  bilingual LDA (BiLDA) and a novel multi-idiomatic LDA model (MiLDA). We compare these to the unigram model with Dirichlet prior.  Our results for all three topic models reveal the usefulness of modeling the hidden thematic structure of the data through topics. Our proposed MiLDA model is able to deal with intrinsic multi-idiomatic data by considering the shared vocabulary between the aligned document pairs.
 
             </div>
             <div class="puba">Susana Zoghbi, Ivan Vulic, Sien Moens</div>
@@ -211,20 +211,20 @@
         </div>
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="{% static 'images/personal/inf_science.png' %}" style="">
+            <img src="{% static 'images/inf_science.png' %}" style="">
           </div>
           <div>
             <p class="imgcaption" style="padding-top: 30px; font-size:14px">Examples that may be linked between user-generated content from Pinterest.com and e-commerce data from Amazon.com.  We see the difference in language usage between social media and online products .  On each row, the items are the same (or very similar), but the textual description differs. This difference in language makes it difficult to link the items as referring to the related objects.</p>
           </div>
-        
+
         </div>
-        
+
     </div>
   </div>
 
 <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-12">
           <div class="pub">
             <div class="pubt">Fashion Meets Computer Vision and NLP at E-Commerce
@@ -245,14 +245,14 @@
             </div>
           </div>
         </div>
-        
+
     </div>
 
 
     <div class="row"  style="padding-top: 30px;">
         <div class="col-md-6">
           <div class="pubimg">
-          <img src="{% static 'images/personal/img2txt.png' %}">
+          <img src="{% static 'images/img2txt.png' %}">
           </div>
           <div>
             <p class="imgcaption">Image to text</p>
@@ -260,19 +260,19 @@
         </div>
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="{% static 'images/personal/txt2img.png' %}" style="padding-bottom: 30px;">
+            <img src="{% static 'images/txt2img.png' %}" style="padding-bottom: 30px;">
           </div>
           <div>
             <p class="imgcaption">Text to image</p>
           </div>
         </div>
     </div>
-    
+
   </div>
 
 <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Cross-Modal Fashion Search</div>
@@ -297,9 +297,9 @@
         </div>
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="{% static 'images/personal/demo_img2txt.png' %}" style="">
+            <img src="{% static 'images/demo_img2txt.png' %}" style="">
           </div>
-        
+
         </div>
 
   </div>
@@ -307,7 +307,7 @@
 
 <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Inferring User Interests on Social Media From Text and Images</div>
@@ -333,13 +333,13 @@
         </div>
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="{% static 'images/personal/somera.png' %}" style="padding-bottom: 30px">
+            <img src="{% static 'images/somera.png' %}" style="padding-bottom: 30px">
           </div>
           <div>
             <p class="imgcaption" style="font-size: 15px;">Examples of pins (image-text pairs) with the corresponding categories (top) our system predicts</p>
           </div>
         </div>
-        
+
         </div>
 
   </div>
@@ -348,7 +348,7 @@
 
 <div class="pubwrap">
       <div class="row">
-        
+
         <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Learning to Bridge Colloquial and Formal Language Applied to Linking and Search of E-Commerce Data</div>
@@ -375,13 +375,13 @@
         </div>
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="{% static 'images/personal/sigir_img.png' %}" style="padding-bottom: 30px">
+            <img src="{% static 'images/sigir_img.png' %}" style="padding-bottom: 30px">
           </div>
           <div>
             <p class="imgcaption" style="font-size: 15px;">Graphical representation of the multiidiomatic LDA (MiLDA) model</p>
           </div>
         </div>
-        
+
         </div>
 
   </div>
@@ -400,7 +400,7 @@
             <div class="pubv">
               Proceedings of the 2013 International Workshop on Mining Unstructured Big Data
           using Natural Language Processing in conjunction with The 24th ACM International Conference on
-          Information and Knowledge Management (CIKM 2013) 
+          Information and Knowledge Management (CIKM 2013)
             </div>
             <div>
               <ul>
@@ -425,7 +425,7 @@
               DUBMOD '13 Proceedings of the 2013 workshop on Data-driven User Behavioral
           Modelling and Mining from Social Media.
           Pages 9-12. In conjunction with The 24th ACM International Conference on Information and Knowledge
-          Management (CIKM 2013) 
+          Management (CIKM 2013)
             </div>
             <div>
               <ul>
@@ -603,10 +603,10 @@
 </div>
 
 </div>
-    
 
 
- </div> 
+
+ </div>
 
 
 
@@ -619,7 +619,7 @@
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous">
-</script> 
+</script>
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
