@@ -11,7 +11,7 @@ html, body {
   margin-bottom: 40px;
 }
 .bg1 {
-  background-image: url('images/milky.jpg');
+  background-image: url('/images/milky.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   max-width: 100%;
@@ -24,11 +24,7 @@ html, body {
 }
 
 #headerblob {
-
-}
-
-#headerblob {
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     position: absolute;
     top: 100px;
@@ -206,7 +202,13 @@ h2 {
   text-align: center;
   font-weight: 300;
   font-size: 50px;
-  padding: 40px 0px 60px;
+  padding: 40px 0px 10px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
 }
 #sitefooter {
   height: 300px;
@@ -223,22 +225,23 @@ hr.soft {
   padding: 0;
   margin: 0;
 }
-.pubt {
+.pub_title {
   font-size: 22px;
   font-weight:400;
+  padding-bottom: 20px;
   color: #000;
 }
 @media (max-width: 768px) {
-  .pubt {
+  .pub_title {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .pubd {
+  .pub_description {
     text-align: justify;
   }
 }
-.pubd {
+.pub_description {
   font-size: 18px;
   font-weight: 300;
 }
@@ -248,13 +251,16 @@ hr.soft {
 .pubimg img {
   max-width: 100%;
 }
-.puba {
+.pub_authors {
   font-size: 18px;
-  color: #5bc0de;
+  font-style: italic;
+  padding-top: 20px;
+  /* color: #5bc0de; */
 }
-.pubv {
+.pub_venue {
   color: #090;
   font-size: 16px;
+  padding-bottom: 20px;
 }
 .publ {
   padding-top: 10px;
