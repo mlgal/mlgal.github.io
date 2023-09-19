@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contrastive Learning on Editor - Personal Blog Hugo Theme</title>
+    <link>https://mlgal.github.io/categories/contrastive-learning/</link>
+    <description>Recent content in Contrastive Learning on Editor - Personal Blog Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Mon, 18 Sep 2023 18:20:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/categories/contrastive-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talk: Computer Vision for Recycling and Waste Management</title>
+      <link>https://mlgal.github.io/blogs/post-11/</link>
+      <pubDate>Mon, 18 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-11/</guid>
+      <description>I gave a talk about how we are using Computer Vision to detect and track all waste through recycling facilities for the Women in Data Science group.</description>
+    </item>
+    
+  </channel>
+</rss>

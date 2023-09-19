@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Editor - Personal Blog Hugo Theme</title>
+    <link>https://mlgal.github.io/tags/analytics/</link>
+    <description>Recent content in Analytics on Editor - Personal Blog Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Tue, 19 Sep 2023 08:19:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waste Analytics System for Greyparrot.ai</title>
+      <link>https://mlgal.github.io/blogs/post-10/</link>
+      <pubDate>Tue, 19 Sep 2023 08:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-10/</guid>
+      <description>At Greyparrot.ai, I helped build a world-class waste analytics platform. I led the Deep Learning team to create a system that automatically recognizes all trash items going through recycling facilities, helping recover all valuable materials and converting them to assets.</description>
+    </item>
+    
+  </channel>
+</rss>

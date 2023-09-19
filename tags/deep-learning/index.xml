@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Editor - Personal Blog Hugo Theme</title>
+    <link>https://mlgal.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Editor - Personal Blog Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Tue, 19 Sep 2023 08:19:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waste Analytics System for Greyparrot.ai</title>
+      <link>https://mlgal.github.io/blogs/post-10/</link>
+      <pubDate>Tue, 19 Sep 2023 08:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-10/</guid>
+      <description>At Greyparrot.ai, I helped build a world-class waste analytics platform. I led the Deep Learning team to create a system that automatically recognizes all trash items going through recycling facilities, helping recover all valuable materials and converting them to assets.</description>
+    </item>
+    
+    <item>
+      <title>Talk: Computer Vision for Recycling and Waste Management</title>
+      <link>https://mlgal.github.io/blogs/post-11/</link>
+      <pubDate>Mon, 18 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-11/</guid>
+      <description>I gave a talk about how we are using Computer Vision to detect and track all waste through recycling facilities for the Women in Data Science group.</description>
+    </item>
+    
+    <item>
+      <title>SETI Talk: Planetary Defense: Long Period Comets</title>
+      <link>https://mlgal.github.io/blogs/post-13/</link>
+      <pubDate>Sun, 17 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-13/</guid>
+      <description>Together with my team, I gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
+    </item>
+    
+    <item>
+      <title>Searching for Long Period Comets with Deep Learning at NASA and SETI</title>
+      <link>https://mlgal.github.io/blogs/post-1/</link>
+      <pubDate>Sat, 16 Sep 2023 18:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-1/</guid>
+      <description>In planetary defense (yes! there is such a thing, where scientists and engineers try to defend the planet from hazards), long-period comets are recognized as the potentially most devastating threat.</description>
+    </item>
+    
+    <item>
+      <title>Get the Look on our Chatbot with Visual Search</title>
+      <link>https://mlgal.github.io/blogs/post-14/</link>
+      <pubDate>Wed, 13 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-14/</guid>
+      <description>Leveraging our image and pattern recognition technology, we developed a chatbot that enables users to search product collections using images.</description>
+    </item>
+    
+    <item>
+      <title>Talk at ReWork: Deep Learning for Fashion Attributes Search</title>
+      <link>https://mlgal.github.io/blogs/post-12/</link>
+      <pubDate>Wed, 13 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-12/</guid>
+      <description>I gave a talk on how to use Deep Learning to search and serve relevant products to your web visitors.</description>
+    </item>
+    
+    <item>
+      <title>Transforming the in-store shopping experience with AI</title>
+      <link>https://mlgal.github.io/blogs/post-15/</link>
+      <pubDate>Wed, 13 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-15/</guid>
+      <description>At Macty, we developed a novel in-store experience, where users can upload images of outfits and we suggest lingerie to pair it with.</description>
+    </item>
+    
+    <item>
+      <title>Cross-modal Search for Fashion Attributes</title>
+      <link>https://mlgal.github.io/blogs/post-4/</link>
+      <pubDate>Wed, 15 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-4/</guid>
+      <description>In this paper we develop a neural network which learns inter- modal representations for fashion attributes to be utilized in a cross-modal search tool.</description>
+    </item>
+    
+    <item>
+      <title>Latent Dirichlet Allocation for Linking User-Generated Content and e-Commerce Data</title>
+      <link>https://mlgal.github.io/blogs/post-2/</link>
+      <pubDate>Sat, 11 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-2/</guid>
+      <description>Automatic linking of online content improves navigation possibilities for end users.</description>
+    </item>
+    
+    <item>
+      <title>Learning to Bridge Colloquial and Formal Language Applied to Linking and Search of E-Commerce Data</title>
+      <link>https://mlgal.github.io/blogs/post-3/</link>
+      <pubDate>Fri, 10 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-3/</guid>
+      <description>We study the problem of linking information between different idiomatic usages of the same language, for example, colloquial and formal language.</description>
+    </item>
+    
+    <item>
+      <title>Inferring User Interests on Social Media From Text and Images</title>
+      <link>https://mlgal.github.io/blogs/post-6/</link>
+      <pubDate>Wed, 08 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-6/</guid>
+      <description>We propose to infer user interests on social media where multi-modal data (text, image etc.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Modal Fashion Search</title>
+      <link>https://mlgal.github.io/blogs/post-5/</link>
+      <pubDate>Tue, 07 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-5/</guid>
+      <description>In this paper we show an online demo that allows bidrectional multimodal queries for garments.</description>
+    </item>
+    
+  </channel>
+</rss>

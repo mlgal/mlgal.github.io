@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convolutional Neural Network on Editor - Personal Blog Hugo Theme</title>
+    <link>https://mlgal.github.io/categories/convolutional-neural-network/</link>
+    <description>Recent content in Convolutional Neural Network on Editor - Personal Blog Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Sun, 17 Sep 2023 18:20:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/categories/convolutional-neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SETI Talk: Planetary Defense: Long Period Comets</title>
+      <link>https://mlgal.github.io/blogs/post-13/</link>
+      <pubDate>Sun, 17 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-13/</guid>
+      <description>Together with my team, I gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
+    </item>
+    
+    <item>
+      <title>Searching for Long Period Comets with Deep Learning at NASA and SETI</title>
+      <link>https://mlgal.github.io/blogs/post-1/</link>
+      <pubDate>Sat, 16 Sep 2023 18:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-1/</guid>
+      <description>In planetary defense (yes! there is such a thing, where scientists and engineers try to defend the planet from hazards), long-period comets are recognized as the potentially most devastating threat.</description>
+    </item>
+    
+    <item>
+      <title>Cross-modal Search for Fashion Attributes</title>
+      <link>https://mlgal.github.io/blogs/post-4/</link>
+      <pubDate>Wed, 15 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-4/</guid>
+      <description>In this paper we develop a neural network which learns inter- modal representations for fashion attributes to be utilized in a cross-modal search tool.</description>
+    </item>
+    
+    <item>
+      <title>Latent Dirichlet Allocation for Linking User-Generated Content and e-Commerce Data</title>
+      <link>https://mlgal.github.io/blogs/post-2/</link>
+      <pubDate>Sat, 11 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-2/</guid>
+      <description>Automatic linking of online content improves navigation possibilities for end users.</description>
+    </item>
+    
+    <item>
+      <title>Learning to Bridge Colloquial and Formal Language Applied to Linking and Search of E-Commerce Data</title>
+      <link>https://mlgal.github.io/blogs/post-3/</link>
+      <pubDate>Fri, 10 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-3/</guid>
+      <description>We study the problem of linking information between different idiomatic usages of the same language, for example, colloquial and formal language.</description>
+    </item>
+    
+    <item>
+      <title>Inferring User Interests on Social Media From Text and Images</title>
+      <link>https://mlgal.github.io/blogs/post-6/</link>
+      <pubDate>Wed, 08 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-6/</guid>
+      <description>We propose to infer user interests on social media where multi-modal data (text, image etc.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Modal Fashion Search</title>
+      <link>https://mlgal.github.io/blogs/post-5/</link>
+      <pubDate>Tue, 07 Sep 2021 11:33:57 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-5/</guid>
+      <description>In this paper we show an online demo that allows bidrectional multimodal queries for garments.</description>
+    </item>
+    
+  </channel>
+</rss>

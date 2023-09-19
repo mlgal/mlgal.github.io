@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NASA on Editor - Personal Blog Hugo Theme</title>
+    <link>https://mlgal.github.io/categories/nasa/</link>
+    <description>Recent content in NASA on Editor - Personal Blog Hugo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Sun, 17 Sep 2023 18:20:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/categories/nasa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SETI Talk: Planetary Defense: Long Period Comets</title>
+      <link>https://mlgal.github.io/blogs/post-13/</link>
+      <pubDate>Sun, 17 Sep 2023 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-13/</guid>
+      <description>Together with my team, I gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
+    </item>
+    
+    <item>
+      <title>Searching for Long Period Comets with Deep Learning at NASA and SETI</title>
+      <link>https://mlgal.github.io/blogs/post-1/</link>
+      <pubDate>Sat, 16 Sep 2023 18:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/post-1/</guid>
+      <description>In planetary defense (yes! there is such a thing, where scientists and engineers try to defend the planet from hazards), long-period comets are recognized as the potentially most devastating threat.</description>
+    </item>
+    
+  </channel>
+</rss>
