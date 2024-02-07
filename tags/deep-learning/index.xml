@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning on Editor - Personal Blog Hugo Theme</title>
+    <title>Deep Learning on Susana Zoghbi</title>
     <link>https://mlgal.github.io/tags/deep-learning/</link>
-    <description>Recent content in Deep Learning on Editor - Personal Blog Hugo Theme</description>
+    <description>Recent content in Deep Learning on Susana Zoghbi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Tue, 19 Sep 2023 08:19:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jan 2024 18:20:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: Intro to Deep Learning</title>
+      <link>https://mlgal.github.io/blogs/2024.01.30.post/</link>
+      <pubDate>Tue, 30 Jan 2024 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/2024.01.30.post/</guid>
+      <description>In this talk, I give a gentle introduction to the fundamental concepts behind Deep Learning.</description>
+    </item>
+    
     <item>
       <title>Waste Analytics System for Greyparrot.ai</title>
       <link>https://mlgal.github.io/blogs/post-10/</link>
@@ -32,7 +41,7 @@
       <pubDate>Sun, 17 Sep 2023 18:20:25 +0600</pubDate>
       
       <guid>https://mlgal.github.io/blogs/post-13/</guid>
-      <description>Together with my team, I gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
+      <description>Together with my team, we gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
     </item>
     
     <item>

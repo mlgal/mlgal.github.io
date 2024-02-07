@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Blogs on Editor - Personal Blog Hugo Theme</title>
+    <title>All Blogs on Susana Zoghbi</title>
     <link>https://mlgal.github.io/blogs/</link>
-    <description>Recent content in All Blogs on Editor - Personal Blog Hugo Theme</description>
+    <description>Recent content in All Blogs on Susana Zoghbi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
@@ -15,6 +15,15 @@
       
       <guid>https://mlgal.github.io/blogs/2024.02.07.post/</guid>
       <description>We are about to start the Antler program in the Nordics in just 5 days and I can&amp;rsquo;t wait.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Intro to Deep Learning</title>
+      <link>https://mlgal.github.io/blogs/2024.01.30.post/</link>
+      <pubDate>Tue, 30 Jan 2024 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/blogs/2024.01.30.post/</guid>
+      <description>In this talk, I give a gentle introduction to the fundamental concepts behind Deep Learning.</description>
     </item>
     
     <item>
@@ -41,7 +50,7 @@
       <pubDate>Sun, 17 Sep 2023 18:20:25 +0600</pubDate>
       
       <guid>https://mlgal.github.io/blogs/post-13/</guid>
-      <description>Together with my team, I gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
+      <description>Together with my team, we gave a talk on how we can provide more warning time in case a long-period comet happens to be in a collision trajectory with Earth.</description>
     </item>
     
     <item>

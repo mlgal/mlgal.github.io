@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Editor - Personal Blog Hugo Theme</title>
+    <title>Categories on Susana Zoghbi</title>
     <link>https://mlgal.github.io/categories/</link>
-    <description>Recent content in Categories on Editor - Personal Blog Hugo Theme</description>
+    <description>Recent content in Categories on Susana Zoghbi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy;2021 &lt;br&gt; Designed &amp;amp; Developed by [Gethugothemes](https://gethugothemes.com/)</copyright>
-    <lastBuildDate>Tue, 19 Sep 2023 08:19:25 +0600</lastBuildDate><atom:link href="https://mlgal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Feb 2024 10:47:09 +0100</lastBuildDate><atom:link href="https://mlgal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Analytics</title>
-      <link>https://mlgal.github.io/categories/analytics/</link>
-      <pubDate>Tue, 19 Sep 2023 08:19:25 +0600</pubDate>
+      <title>Entrepreneurship</title>
+      <link>https://mlgal.github.io/categories/entrepreneurship/</link>
+      <pubDate>Wed, 07 Feb 2024 10:47:09 +0100</pubDate>
       
-      <guid>https://mlgal.github.io/categories/analytics/</guid>
+      <guid>https://mlgal.github.io/categories/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startups</title>
+      <link>https://mlgal.github.io/categories/startups/</link>
+      <pubDate>Wed, 07 Feb 2024 10:47:09 +0100</pubDate>
+      
+      <guid>https://mlgal.github.io/categories/startups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning</title>
       <link>https://mlgal.github.io/categories/deep-learning/</link>
-      <pubDate>Tue, 19 Sep 2023 08:19:25 +0600</pubDate>
+      <pubDate>Tue, 30 Jan 2024 18:20:25 +0600</pubDate>
       
       <guid>https://mlgal.github.io/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://mlgal.github.io/categories/tutorial/</link>
+      <pubDate>Tue, 30 Jan 2024 18:20:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>https://mlgal.github.io/categories/analytics/</link>
+      <pubDate>Tue, 19 Sep 2023 08:19:25 +0600</pubDate>
+      
+      <guid>https://mlgal.github.io/categories/analytics/</guid>
       <description></description>
     </item>
     
